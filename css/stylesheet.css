@@ -1,0 +1,37 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sections{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.about-me{
+    width: 300px;
+    height: 200px;
+}
+
+.list{
+    list-style: none
+}
+
+.nav-right{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
