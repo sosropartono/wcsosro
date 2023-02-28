@@ -2,23 +2,49 @@ html, body {
     height: 100%;
     margin: 0;
     text-align: center;
-
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-color: #fc4445;
+    background-color: white;
+    animation: alternate;
 }
 
-.sections{
+.nav-right{
+    margin: 30px;
     display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    flex-direction: row;
 }
+
+div{
+    display: block;
+}
+
+.nav-item{
+    margin-left: 4vw;
+}
+
+.introduction{
+    padding: 3vw;
+    max-width: fit-content;
+    position: absolute;
+}
+
+
+.sections{
+    /*  */
+    padding-left: 10vw;
+    padding-right: 10vw;
+    animation: slide 1s ease-out 1;
+}
+
 
 .navbar{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1vh 7vw 1vh 7vw;
 }
 
 .about-me{
@@ -30,21 +56,16 @@ html, body {
     list-style: none
 }
 
-.nav-right{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-
-.introduction{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-
-}
 
 p.position{
     font-size: 0.875em;
+}
+
+.wgo{
+    
+    display: flex;
+    flex-direction: row;
+    margin-top: 10vh;
 }
 
 
@@ -52,34 +73,40 @@ p.position{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 80%;
-    margin: auto;
-    
+    justify-content: center;
+    padding: 60px 3% 60px 3%;
 }
 
 .card{
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    max-width: auto;
-    max-height: auto;
-    margin: 0 auto;
-    margin-top: 20vh;
-    border-radius: 6px;
+    /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s; */
+    /* border-radius: 6px; */
     /* elements are set into boxes, here positions the element 25px left and right away from parent element and 4% of parent size) */
-    margin: 25px 4vw;
-    background-color: white;
+    margin: 20px 3vw;
+    width: 25vw;
+    height: 30vh;
+    background-color: gray;
+    height: fit-content;
 }
-.card-container:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+.card:hover {
+    /* box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2); */
+    border-radius: 10px;
   }
+
 .card-img{
-    width: 30vw;
+    width: 23vw;
+    height: 20vh;
     
 }
 
 .card-desc{
     padding:0px 16px;
+    
     text-align: left;
+}
+
+ul{
+    padding:0;
 }
 
 
