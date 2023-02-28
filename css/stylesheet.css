@@ -1,3 +1,12 @@
+@font-face {
+    font-family:Open_Sans;
+    src: url(/assets/Open_Sans/static/OpenSans/OpenSans-Medium.ttf);
+}
+
+*{
+    font-family: Open_Sans;
+}
+
 html, body {
     height: 100%;
     margin: 0;
@@ -16,6 +25,7 @@ html, body {
     flex-direction: row;
 }
 
+
 div{
     display: block;
 }
@@ -25,9 +35,11 @@ div{
 }
 
 .introduction{
-    padding: 3vw;
+
     max-width: fit-content;
     position: absolute;
+    text-align: center;
+    font-size: larger;
 }
 
 
@@ -48,8 +60,9 @@ div{
 }
 
 .about-me{
-    width: 300px;
-    height: 200px;
+    width: 400px;
+    height: 300px;
+    margin: 20vh 0px 20vh 0px;
 }
 
 .list{
@@ -83,8 +96,8 @@ p.position{
     /* border-radius: 6px; */
     /* elements are set into boxes, here positions the element 25px left and right away from parent element and 4% of parent size) */
     margin: 20px 3vw;
-    width: 25vw;
-    height: 30vh;
+    max-width: 25vw;
+    max-height: 30vh;
     background-color: gray;
     height: fit-content;
 }
@@ -108,5 +121,11 @@ p.position{
 ul{
     padding:0;
 }
+
+h1,h2,h3,h4,h5,h6, p{
+    margin: 0px;
+}
+
+
 
 
