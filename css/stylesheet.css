@@ -12,7 +12,7 @@ html{
     height: 100%;
     background-color: white;
     animation: alternate;
-    font-size: 1.25em;
+    font-size: 1.5em;
 
 }
  body{
@@ -150,7 +150,7 @@ h1,h2,h3,h4,h5,h6, p{
 }
 
 .current-text-wrapper{
-    font-size: 10px;
+    font-size: 15px;
     padding: 2px 0px;
 
 }
