@@ -1,20 +1,24 @@
 @font-face {
     font-family:Open_Sans;
-    src: url(/assets/Open_Sans/static/OpenSans/OpenSans-Medium.ttf);
+    src: url(/assets/font/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf);
 }
 
 *{
     font-family: Open_Sans;
 }
 
- body {
+html{
     margin: 0;
+    height: 100%;
+    background-color: white;
+    animation: alternate;
+
+}
+ body{
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-color: white;
-    animation: alternate;
 }
 
 .nav-right{
@@ -52,14 +56,24 @@ div{
     padding: 1vh 7vw 1vh 7vw;
 }
 
-.about-me{
-    padding: 15vh 10vh 25vh 5vh;
+.main-desc{
+    padding: 18vh 10vh 23vh 5vh;
     flex-wrap: nowrap;
     display: flex;
     flex-direction: column;
     text-align: left;
 
 }
+a:link{
+    text-decoration: none;
+}
+a:visited{ text-decoration: none; }
+
+a:hover{
+    text-decoration: none;
+}
+
+
 
 .list{
     list-style: none
@@ -91,7 +105,7 @@ p.position{
     transition: 0.3s; */
     /* border-radius: 6px; */
     /* elements are set into boxes, here positions the element 25px left and right away from parent element and 4% of parent size) */
-    margin: 20px 3vw;
+    margin: 20px 5vw;
     max-width: 25vw;
     max-height: 30vh;
     background-color: white;
@@ -103,7 +117,7 @@ p.position{
   }
 
 .card-img{
-    width: 23vw;
+    width: 24vw;
     height: 20vh;
     
 }
@@ -136,7 +150,7 @@ h1,h2,h3,h4,h5,h6, p{
 }
 
 .current-text-wrapper{
-    font-size: 12px;
+    font-size: 10px;
     padding: 2px 0px;
 
 }
