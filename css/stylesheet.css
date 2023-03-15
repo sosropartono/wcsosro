@@ -12,7 +12,7 @@ html{
     height: 100%;
     background-color: white;
     animation: alternate;
-    font-size: 1.5em;
+    font-size: 1.25em;
 
 }
  body{
@@ -20,6 +20,7 @@ html{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+
 }
 
 .nav-right{
