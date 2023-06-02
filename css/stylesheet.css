@@ -15,6 +15,16 @@ html{
     font-size: 1.25em;
 
 }
+
+.about-desc{
+    text-align: left;
+    display: grid;
+}
+
+a:visited, a:hover, a{
+    color: inherit;
+
+}
  body{
     height: 100%;
     display: flex;
@@ -59,17 +69,30 @@ div{
 }
 
 .main-desc{
-    padding: 18vh 10vh 23vh 5vh;
+    padding: 20vh 0vh 20vh 0vh;
     flex-wrap: nowrap;
     display: flex;
     flex-direction: column;
     text-align: left;
+}
 
+.work-desc{
+    padding: 20vh 0vh 20vh 0vh;
+    flex-wrap: nowrap;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+.fun-card{
+    width: 400px;
 }
 
 a:link{
     text-decoration: none;
 }
+
 a:visited{ text-decoration: none; }
 
 a:hover{
@@ -99,6 +122,8 @@ p.position{
     flex-wrap: wrap;
     justify-content: center;
     padding: 3% 3% 60px 3%;
+    min-height: 300px;
+    
 }
 
 .card{
@@ -157,5 +182,15 @@ h1,h2,h3,h4,h5,h6, p{
 }
 
 
+.profile-pic{
+    max-width: 300px;
+    max-height: 350px;
+    border-radius: 30%;
+    margin-right: 3vw;
+}
 
-
+.main{
+    margin-top: 2em;
+    display: flex;
+    justify-content: space-between;
+}
